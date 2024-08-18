@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Bienvenido a GeekHave, el lugar donde los geeks encuentran su hogar"
+    />
+    <meta
+      name="keywords"
+      content="geeks, tecnología, comunidad geek, entretenimiento geek"
+    />
+    <meta name="author" content="GeekHave Team" />
+    <title>El rincón donde los geeks encuentran su hogar</title>
+    <link rel="stylesheet" href="../styles/index.css" type="text/css" />
+  </head>
+  <body>
+    <div class="image-container">
+      <h1 class="text">
+        Bienvenido a GeekHave, el lugar donde los geeks encuentran su hogar
+      </h1>
+      <div class="form-container">
+        <h2>Login</h2>
+        <form action="/login" method="post">
+          <label for="username">Username:</label>
+          <input
+            type="text"
+            id="username"
+            name="username"
+            placeholder="Escriba su username"
+            required
+          />
+
+          <label for="password">Password:</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder="Escriba su password"
+            required
+          />
+
+          <button type="submit">Ingresar</button>
+        </form>
+        <a href="./contact.html">¿No te has registrado?</a>
+      </div>
+    </div>
+    <script src="app.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+/* Elimina el margen y padding predeterminado del body */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  justify-content: center;
+  align-items: center;
+  background: url("../img/pantalla_inicio.jpg") no-repeat center center fixed;
+  background-size: cover; /* Esto asegura que la imagen cubra toda la pantalla */
+}
+
+/* Para centrar el texto sobre la imagen */
+.image-container {
+  position: relative;
+  height: 80%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin-bottom: 110px;
+}
+
+.text {
+  color: #ffffff; /* Puedes cambiar esto al color que prefieras */
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+  font-family: "Roboto", sans-serif; /* Cambia la fuente aquí */
+  font-size: 2rem;
+  text-align: center;
+}
+.form-container {
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.5);
+  color: #ffffff;
+  text-align: left;
+  margin-left: 4%;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff7f00;
+  font-size: 24px;
+}
+
+.form-container label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ff7f00;
+  font-size: 16px;
+}
+
+.form-container input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: none;
+  border-bottom: 2px solid #ff7f00;
+  background: transparent;
+  color: #ffffff;
+  font-size: 16px;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.form-container button {
+  width: 100%;
+  padding: 10px;
+  background-color: #ff7f00;
+  border: none;
+  border-radius: 5px;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-bottom: 10px;
+}
+
+.form-container button:hover {
+  background-color: #e06b00;
+}
+.form-container a {
+  color: #ff7f00;
+}
